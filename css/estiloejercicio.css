@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.padre {
+    background: url("../recursos/imagenes/images.jpg") no-repeat center/cover;
+    position: relative;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.contenido {
+    max-width: 600px;
+    margin: auto;
+    position: relative;
+    right: 350px;
+    width: 18%;
+    text-align: left;
+
+}
+
+.padre h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #ff2d2d;
+}
+
+.padre p {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #ff2d2d;
+    color: white;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 100px;
+    position: relative;
+    top: 25px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.diferencia {
+    background: #d32f2f;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.diferencia h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.beneficio {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.beneficio1 {
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.beneficio1 img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.beneficio1 h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.freepik {
+    color: grey;
+    text-align: left;
+    position: relative;
+    top: 60px;
+    opacity: 0.3;
+    font-size: 12px;
+}
+
+.width {
+    position: relative;
+    margin: auto;
+    width: 18%;
+}
+
+.width1 {
+    position: relative;
+    padding: 25px;
+    margin: auto;
+    width: 20%;
+}
